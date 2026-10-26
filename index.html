@@ -165,6 +165,76 @@ Portfolio Section Start
       <h1 class="title wow fadeInDown" data-wow-delay=".3s">My Projects</h1>      
     </div>
 
+
+This is **HTML**, which you can embed in Markdown if your platform supports it. The main structural issue is a missing closing `</div>` for the outer row.
+
+I corrected both descriptions, replaced the placeholder image descriptions, and linked the titles to the project pages:
+
+```html
+<div class="row">
+  <div class="col-md-4 col-sm-6">
+    <figure class="wow fadeInLeft animated portfolio-item"
+            data-wow-duration="500ms" data-wow-delay="0ms">
+      <div class="img-wrapper">
+        <img src="images/portfolio/item-8.jpg"
+             class="img-fluid"
+             alt="Tap2Stop project overview">
+        <div class="overlay">
+          <div class="buttons">
+            <a href="https://xinyuegui.github.io/tap2stop/index.html"
+               target="_blank" rel="noopener noreferrer">
+              Project page
+            </a>
+          </div>
+        </div>
+      </div>
+      <figcaption>
+        <h4>
+          <a href="https://xinyuegui.github.io/tap2stop/index.html">
+            Tap2Stop
+          </a>
+        </h4>
+        <p>
+          Pedestrians can stop an autonomous vehicle by tapping its
+          surface when they perceive danger.
+        </p>
+      </figcaption>
+    </figure>
+  </div>
+
+  <div class="col-md-4 col-sm-6">
+    <figure class="wow fadeInLeft animated portfolio-item"
+            data-wow-duration="500ms" data-wow-delay="0ms">
+      <div class="img-wrapper">
+        <img src="images/portfolio/item-9.jpg"
+             class="img-fluid"
+             alt="LLM-based eHMI project overview">
+        <div class="overlay">
+          <div class="buttons">
+            <a href="https://xinyuegui.github.io/llmeHMI/index.html"
+               target="_blank" rel="noopener noreferrer">
+              Project page
+            </a>
+          </div>
+        </div>
+      </div>
+      <figcaption>
+        <h4>
+          <a href="https://xinyuegui.github.io/llmeHMI/index.html">
+            LLM-based eHMI
+          </a>
+        </h4>
+        <p>
+          How can we enable LLMs to generate understandable and
+          adaptive eHMI actions?
+        </p>
+      </figcaption>
+    </figure>
+  </div>
+</div>
+
+
+	  
 <div class="row">
     <div class="col-md-4 col-sm-6">
         <figure class="wow fadeInLeft animated portfolio-item" data-wow-duration="500ms" data-wow-delay="0ms">
